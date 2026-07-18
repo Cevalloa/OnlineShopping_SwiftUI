@@ -11,7 +11,9 @@ import SwiftUI
 struct OnlineShopping_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            WelcomeView()
+            NavigationStack {
+                    WelcomeView()
+            }
         }
     }
 }
